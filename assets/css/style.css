@@ -23,8 +23,40 @@ header{
 
 .logo{
     font-size: 2.22vw;
+    margin: 0.833vw 38.583vw 0.833vw 12.22vw;
+    font-family: Noto Serif JP;
 }
 
 .menu{
+    display: flex;
+    justify-content: space-between;
     font-size: 1.11vw;
+    list-style: none;
+    align-items: center;
+    font-family: Noto Serif JP;
+    margin-right: 7.77vw;
+}
+
+li{
+    margin-right: 5vw;
+}
+
+/*kv*/
+.kv{
+    width: 100%;
+    height: 46.388vw;
+    background-image:url(assets\img\kv.png);
+}
+
+.slogan-p{
+    font-size: 2.777vw;
+    font-family: Noto Serif JP;
+    margin: 7.4305vw 0 0 49.097vw;
+    position: relative;
+}
+
+.slogan-p-v{
+    font-size: 3.88vw;
+    font-family: Noto Serif JP;
+    margin: 5.694vw 0 0 59.853vw;
 }
