@@ -45,7 +45,8 @@ li{
 .kv{
     width: 100%;
     height: 46.388vw;
-    background-image:url(assets\img\kv.png);
+    background-image:url(../img/kv.png);
+    background-size: 100vw 46.388vw;
 }
 
 .slogan-p{
@@ -55,8 +56,35 @@ li{
     position: relative;
 }
 
-.slogan-p-v{
+.slogan-p-n{
     font-size: 3.88vw;
     font-family: Noto Serif JP;
     margin: 5.694vw 0 0 59.853vw;
+}
+
+
+.slogan-p-v{
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #EA3152,#FF758E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.041vw;
+    font-family: Noto Serif JP;
+    margin: 0 0 11.38vw 62.5vw;
+}
+
+/*お悩みセクション*/
+.lattice{
+    width: 100%;
+    height: 74.93vw;
+    background-image:url(../img/lattice-background.png);
+    background-size: 100vw 74.93vw;
+}
+
+/*○○が選ばれる理由*/
+.wave{
+    width: 100%;
+    height:90.416vw;
+    background-image:url(../img/wave-background.png);
+    background-size: 100vw 90.416vw;
 }
