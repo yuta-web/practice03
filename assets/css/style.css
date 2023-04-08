@@ -11,6 +11,10 @@ body{
   counter-reset: number 0;
 }
 
+p{
+    margin: 0;
+}
+
 /*ヘッダー*/
 header{
     width: 100%;
@@ -52,14 +56,22 @@ li{
 .slogan-p{
     font-size: 2.777vw;
     font-family: Noto Serif JP;
-    margin: 7.4305vw 0 0 49.097vw;
+    padding: 7.4305vw 0 0 49.097vw;
     position: relative;
+    margin: 0;
 }
-
+.kv img{
+    position: absolute;
+    width: 8.095vw;
+    height: auto;
+    top: 22vw;
+    left: 50vw;
+}
 .slogan-p-n{
     font-size: 3.88vw;
     font-family: Noto Serif JP;
-    margin: 5.694vw 0 0 59.853vw;
+    padding: 5.694vw 0 0 59.853vw;
+    margin: 0;
 }
 
 
@@ -72,6 +84,37 @@ li{
     font-family: Noto Serif JP;
     margin: 0 0 11.38vw 62.5vw;
 }
+.value{
+    font-size: 4vw;
+}
+
+.slogan-p-v2{
+    position: absolute;
+    font-size: 1.5097vw;
+    font-family: Noto Serif JP;
+    top: 31.5vw;
+    left: 78vw;
+}
+
+.cta{
+    position: absolute;
+    font-family: Noto Sans JP;
+    writing-mode: vertical-rl;
+    font-size: 1.666vw;
+    color: white;
+    text-align: center;
+    top: 13vw;
+    left: 92vw;
+    width: 5.7638vw;
+    height: 24.9305vw;
+    background:linear-gradient(-90deg, #FF758E, #fff); 
+    border-radius: 10px;
+    border: 10px solid #EA3152;
+}
+
+.cta p{
+    padding: 1.5277vw 2.1527vw;
+}
 
 /*お悩みセクション*/
 .lattice{
@@ -81,10 +124,145 @@ li{
     background-size: 100vw 74.93vw;
 }
 
+.question,
+.trouble-p{
+    font-family: Noto Serif JP;
+}
+
+.question{
+    font-size: 2.77vw;
+    margin: 0;
+    padding: 7.22vw 26.0vw 0 26.0vw;
+    -webkit-text-stroke: 1px #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.trouble-p{
+    font-size: 3.888vw;
+}
+
 /*○○が選ばれる理由*/
 .wave{
     width: 100%;
     height:90.416vw;
     background-image:url(../img/wave-background.png);
     background-size: 100vw 90.416vw;
+}
+
+.reason,
+.choice{
+    font-family: Noto Serif JP;
+}
+
+.reason{
+    font-size: 2.77vw;
+    color: #4079AD;
+    margin: 0;
+    padding: 7.22vw 35.27vw 0 35.27vw;
+    -webkit-text-stroke: 1px #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5.138vw;
+}
+
+.choice{
+    font-size: 3.888vw;
+}
+
+.text-block{
+    font-family: Roboto;
+    margin: 6.527vw 21.25vw 0 64.2361vw;
+    position: relative;
+}
+.text-big{
+    font-size: 2.22vw;
+    width: 14.5138vw;
+    height: auto;
+}
+
+.text-small{
+    font-size: 1.11vw;
+    width: 14.2361vw;
+    height: auto;
+    margin-top: 1.11vw;
+}
+
+.text-block:before{
+    counter-increment: number 1;
+    content:"0" counter(number) " "; 
+    position: absolute;
+    font-size: 6.944vw;
+    font-family: Noto Serif JP;
+    width: 7.77vw;
+    height: 10vw;
+    background: linear-gradient(180deg, #52A7F5 0%, rgba(32, 36, 131, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 0vw;
+    right: 15vw;
+}
+.wave img{
+    position: absolute;
+    width: 16.890vw;
+    height: 55.757vw;
+    filter: drop-shadow(-25px 74px 32px rgba(0, 0, 0, 0.25));
+    transform: rotate(-15.01deg);
+    top: 140vw;
+    right: 60vw;
+}
+
+/*○○の特徴*/
+.white{
+    width: 100%;
+    height:170.833vw;
+    background-image:url(../img/white-background.png);
+    background-size: 100vw 170.833vw;
+}
+
+.feature{
+    font-size: 2.77vw;
+    font-family: Noto Serif JP;
+    padding: 7.22vw 40vw 0 40vw;
+    border: 3px solid #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feature-b{
+    font-size: 3.88vw;
+}
+
+.white-block{
+    width: 75.55vw;
+    height: 144.0277vw;
+    margin: 6.805vw 10.6805vw 7.22vw 10.236vw;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.choice-text-block{
+    width: 35.9027vw;
+    height: 23.4027vw;
+    background: linear-gradient(112.67deg, rgba(84, 166, 184, 0.42) 0%, rgba(121, 225, 179, 0.417856) 49.51%, rgba(84, 198, 95, 0.4158) 97%);
+    margin-top: 15.4861vw;
+    margin-left: 8.125vw;
+    position: relative;
+}
+.white-block img{
+    position: absolute;
+    background-image: url(../img/lotion-Water-2.png);
+    width: 29.5138vw;
+    height:auto;
+    top: 2vw;
+    left: 5vw;
+}
+
+.choice-text-b{
+    font-size: 2.22vw;
+    font-family: Roboto;
+    padding: 4.583vw 4.166vw 0 4.3055vw;
+}
+
+.choice-text-s{
+    font-size: 1.11vw;
+    font-family:Roboto;
+    padding: 3.1944vw 5.1388vw 3.4027vw 4.3055vw;
 }
