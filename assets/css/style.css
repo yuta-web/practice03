@@ -109,7 +109,8 @@ li{
     height: 24.9305vw;
     background:linear-gradient(-90deg, #FF758E, #fff); 
     border-radius: 10px;
-    border: 10px solid #EA3152;
+    border: 5px solid #EA3152;
+    text-decoration: none;
 }
 
 .cta p{
@@ -127,6 +128,8 @@ li{
 .question,
 .trouble-p{
     font-family: Noto Serif JP;
+    font-weight: 600;
+    color: #333;
 }
 
 .question{
@@ -238,23 +241,22 @@ li{
     overflow: hidden;
 }
 
+.choice-text-block img{
+    position: relative;
+    background-image: url(../img/lotion-Water-2.png);
+    width: 29.5138vw;
+    height:auto;
+    margin: 6.319vw 5.833vw 0 40.208vw;
+}
+
 .choice-text-block{
+    position: absolute;
     width: 35.9027vw;
     height: 23.4027vw;
     background: linear-gradient(112.67deg, rgba(84, 166, 184, 0.42) 0%, rgba(121, 225, 179, 0.417856) 49.51%, rgba(84, 198, 95, 0.4158) 97%);
     margin-top: 15.4861vw;
     margin-left: 8.125vw;
-    position: relative;
 }
-.white-block img{
-    position: absolute;
-    background-image: url(../img/lotion-Water-2.png);
-    width: 29.5138vw;
-    height:auto;
-    top: 2vw;
-    left: 5vw;
-}
-
 .choice-text-b{
     font-size: 2.22vw;
     font-family: Roboto;
@@ -265,4 +267,146 @@ li{
     font-size: 1.11vw;
     font-family:Roboto;
     padding: 3.1944vw 5.1388vw 3.4027vw 4.3055vw;
+}
+
+/*申し込む*/
+.apply{
+    width: 100vw;
+    height: 67.5vw;
+    background: linear-gradient(180deg, #C1E1FF 0%, #6694BF 100%);
+    overflow: hidden;
+}
+
+.white-block-apply-out{
+    width: 85.8333vw;
+    height: 53.055vw;
+    background-color: #FFF;
+    margin: 7.222vw 7.0833vw;
+    overflow: hidden;
+}
+
+.white-block-apply-in{
+    width: 83.263vw;
+    height: 50.694vw;
+    margin: 1.180vw;
+    border: solid 1px #202483;
+}
+
+.apply-text-1{
+    font-family: Noto Serif JP;
+    font-size: 1.666vw;
+    width: 26.66vw;
+    height: auto;
+    margin: 5.208vw 19.236vw 0 37.361vw;
+}
+
+.apply-text-2{
+    font-family: Noto Serif JP;
+    font-size: 2.22vw;
+    width: 26.66vw;
+    height: auto;
+    margin: 1.527vw 19.236vw 0 37.361vw;
+}
+
+.apply-text-3{
+    font-family: Noto Serif JP;
+    font-size: 2.77vw;
+    width: 19.44vw;
+    height: auto;
+    margin: 1.527vw 22.847vw 0 40.972vw;
+}
+
+.triangle-v{
+    position: relative;
+    width: 20vw;
+    height: 3vw;
+    background-color: #F8718A;
+    margin: 1.11vw 22.847vw 0 41.11vw;
+}
+
+.triangle-v:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    box-sizing: border-box;
+    border-right: 10vw solid transparent;
+    border-left: 10vw solid transparent;
+    border-top: 3vw solid #F8718A;
+    padding-bottom: 3.26vw;
+  }
+
+.slogan-p-v-2{
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #EA3152,#FF758E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 6.041vw;
+    font-family: Noto Serif JP;
+    margin: 2.4166vw 21.944vw 0 41.11vw;
+}
+
+.slogan-p-v2-2{
+    position: absolute;
+    font-size: 1.5097vw;
+    font-family: Noto Serif JP;
+    top: 426.5vw;
+    left: 64.5vw;
+}
+
+.apply-img-1{
+    position: absolute;
+    width: 10.9541vw;
+    height: auto;
+    top: 398vw;
+    left: 20vw;
+}
+.apply-img-2{
+    position: absolute;
+    width: 10.972vw;
+    height: auto;
+    top: 432vw;
+    left: 20vw;
+}
+
+.apply-allow{
+    height: 3.419vw;
+    width: 2.9875vw;
+    background: linear-gradient(89.67deg, #FFD43E 4.4%, #FFD43E 94.37%);
+    position:absolute;
+    margin-top: 20px;
+    margin: 5vw 0 0 30.277vw;
+}
+.apply-allow::after {
+    content:  '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent transparent #FFD43E;
+    position:  absolute;
+    top: -25%;
+    left: 100%;
+}
+
+
+.entry{
+    width: 38.33vw;
+    height: 6.944vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Noto Serif JP;
+    font-size: 3.888vw;
+    padding: 10px 10px 10px 0px;
+    gap: 10px;
+    text-decoration: none;
+
+    background: #30C62D;
+    border: 5px solid #2A9D17;
+    box-shadow: 0px 9px 4px rgba(0, 0, 0, 0.25), inset 0px 30px 16px rgba(255, 255, 255, 0.46);
+    border-radius: 17px;
+
+    margin: 1.25vw 12.43vw  5.208vw 32.5vw;
 }
