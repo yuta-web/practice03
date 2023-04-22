@@ -548,6 +548,85 @@ label {
     display: block;
    }
  
-.example{
+.example,
+.agreelabel{
+    font-family: Noto Serif JP;
+    font-size: 1.66vw;
+    color: #333333;
+    text-align: center;
+    margin-top: 4.79vw;
+}
+
+input.name,
+input.email,
+input.tel,
+textarea.iken{
+    width: 52.708vw;
+    height: 3.75vw;
+    background: rgba(167, 235, 239, 0.57);
+    border: none;
+    margin: 1.11vw 0 4.44vw 0;
+}
+textarea.iken{
+    width:52.708vw;
+    height: 19.166vw;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"]{
+    font-size:1.66vw;
+}
+input[type="checkbox"]{
+    transform:scale(4.4);
+    border: 5px solid #4079AD;
+    border-radius: 4px;
+    background: #E8E8E8;
+    margin-right: 1vw;
+}
+input[type="submit"]{
+    width: 34.027vw;
+    height: 7.7083vw;
+    font-size: 2.77vw;
+    font-family: Noto Sans JP;
+    color: #FFFF;
+    border: none;
+    border-radius: 0.694vw;
+    background: #54A6B8;
+    box-shadow: inset 0px 21px 10px rgba(255, 255, 255, 0.25);
+
+}
+
+/*フッター*/
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #44515C;
+}
+
+.footer-menu{
+    display: flex;
+}
+
+.logo{
+    width:7.77vw ;
+    font-family: Noto Serif JP;
+    font-size: 3.88vw;
+    color: #FFFF;
+    margin: 7.22vw 0 13.055vw 12.22vw; 
+}
+
+.menu2{
+    font-family: Noto Serif JP;
+    font-size: 1.11vw;
+    color: #FFFF;
+    list-style: none;
+    margin: 7.22vw 302.08vw 6.805vw 47.847vw;
+}
+
+.footer-text{
+    font-family: Noto Serif JP;
+    font-size: 1.11vw;
+    color: #FFFF;
     text-align: center;
 }
