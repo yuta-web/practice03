@@ -144,6 +144,72 @@ li{
     font-size: 3.888vw;
 }
 
+.question-img-block01,
+.question-img-block02{
+    display: flex;
+}
+.question01-p,
+.question02-p,
+.question03-p,
+.question04-p,
+.question05-p{
+    font-family: Noto Serif JP;
+    font-size: 1.11vw;
+}
+.question01{
+    width: 20.833vw;
+    height: 16.458vw;
+    margin: 2.708vw 0 0 17.152vw;
+    position: relative;
+}
+.question01-p{
+    position: absolute;
+    top: 73.5vw;
+    left: 21vw;
+}
+
+.question02{
+    width: 20.486vw;
+    height: 15.347vw;
+    margin: 5.625vw 19.44vw 0 22.083vw; 
+}
+.question02-p{
+    position: absolute;
+    top: 76vw;
+    left: 64vw;
+}
+.question03{
+    width: 21.736vw;
+    height: 14.931vw;
+    margin: 2.986vw 41.66vw 0 36.597vw;
+}
+.question03-p{
+    position: absolute;
+    top: 94vw;
+    left: 41vw;
+}
+.question04{
+    width: 20vw;
+    height: 18.4027vw;
+    margin: -4vw 5.138vw 8.4027vw 12.22vw;
+}
+.question04-p{
+    position: absolute;
+    top: 107vw;
+    left: 15vw;
+}
+
+.question05{
+    width: 20vw;
+    height: 17.0138vw;
+    margin: -1vw 14.305vw 6.944vw 34.44vw;
+}
+.question05-p{
+    position: absolute;
+    top: 109.5vw;
+    left: 75vw;
+}
+
 /*○○が選ばれる理由*/
 .wave{
     width: 100%;
@@ -457,10 +523,11 @@ li{
 /*レビュー*/
 .review{
     width: 100%;
-    height:148vw;
+    height:100%;
     background-image:url(../img/background-circle.png);
     background-size: 100vw 140.833vw;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .white-block-review{
@@ -474,12 +541,43 @@ li{
     display: flex;
 }
 
-.separate img{
+.separate-img{
     width: 27.916vw;
     height: auto;
     margin: 10.138vw 5.208vw 0 4.9305vw;
+    position: relative;
 }
 
+.initial-img{
+    width: 19.2708vw;
+    height: auto;
+    position: absolute;
+    top: 506vw;
+    left: 16vw;
+}
+.initial-p{
+    font-family: Noto Serif JP;
+    font-size: 1.66vw;
+    color: #FFFF;
+    position: absolute;
+    top: 506.5vw;
+    left: 18.5vw;
+}
+.initial-img2{
+    width: 19.2708vw;
+    height: auto;
+    position: absolute;
+    top: 577vw;
+    left: 16vw;
+}
+.initial-p2{
+    font-family: Noto Serif JP;
+    font-size: 1.66vw;
+    color: #FFFF;
+    position: absolute;
+    top: 577.5vw;
+    left: 18.5vw;
+}
 .text-b{
     font-family: 'Noto Serif JP';
     font-size: 2.22vw;
@@ -613,7 +711,7 @@ footer{
     font-family: Noto Serif JP;
     font-size: 3.88vw;
     color: #FFFF;
-    margin: 7.22vw 0 13.055vw 12.22vw; 
+    margin-top: 7.22vw;
 }
 
 .menu2{
@@ -621,7 +719,12 @@ footer{
     font-size: 1.11vw;
     color: #FFFF;
     list-style: none;
-    margin: 7.22vw 302.08vw 6.805vw 47.847vw;
+    justify-content: space-between;
+    margin-top: 7.22vw;
+}
+
+.menu2 li{
+    margin-top: 1.805vw;
 }
 
 .footer-text{
@@ -629,4 +732,5 @@ footer{
     font-size: 1.11vw;
     color: #FFFF;
     text-align: center;
+    margin-top: 6.805vw;
 }
