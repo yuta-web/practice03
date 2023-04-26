@@ -95,7 +95,7 @@ li{
 }
 @media screen and (max-width:768px){
     .kv{
-        background-size: 100% 186.4vw;
+        background-size: auto 186.4vw;
         height: 186.4vw;
         background-position: -290px 0;
     }
@@ -251,6 +251,13 @@ li{
     background-image:url(../img/wave-background.png);
     background-size: 100vw 90.416vw;
 }
+@media screen and (max-width:768px){
+    .wave{
+        background-size: auto 175.46vw;
+        height: 175.46vw;
+        background-position: -220px 0;
+    }
+}
 
 .reason,
 .choice{
@@ -264,23 +271,52 @@ li{
     padding: 7.22vw 35.27vw 0 35.27vw;
     margin-bottom: 5.138vw;
 }
+@media screen and (max-width:768px){
+    .reason{
+        width: 74.66vw;
+        height:auto;
+        margin: 16vw 12.66vw 19.466vw 12.66vw;
+        padding: 0;
+    }
+}
 
 .text-block{
     font-family: Roboto;
     margin: 6.527vw 21.25vw 0 64.2361vw;
     position: relative;
 }
+@media screen and (max-width:768px){
+    .text-block{
+        width: 34.874vw;
+        margin: 0vw 2.66vw 13.33vw 54.66vw;
+        padding: 0;
+    }
+}
+
 .text-big{
     font-size: 2.22vw;
     width: 14.5138vw;
     height: auto;
 }
-
+@media screen and (max-width:768px){
+    .text-big{
+        font-size: 5.33vw;
+        width: 34.874vw;
+        height: auto;
+    }
+}
 .text-small{
     font-size: 1.11vw;
     width: 14.2361vw;
     height: auto;
     margin-top: 1.11vw;
+}
+@media screen and (max-width:768px){
+    .text-small{
+        font-size: 3.733vw;
+        width: 34.874vw;
+        height: auto;
+    }
 }
 
 .text-block:before{
@@ -297,6 +333,16 @@ li{
     top: 0vw;
     right: 15vw;
 }
+@media screen and (max-width:768px){
+    .text-block:before{
+        font-size: 10.66vw;
+        width: 27.181vw;
+        height: auto;
+        top: 2vw;
+        right: 20vw;
+    }
+}
+
 .lotion-Water{
     position: absolute;
     width: 16.890vw;
@@ -305,6 +351,15 @@ li{
     transform: rotate(-15.01deg);
     top: 140vw;
     right: 60vw;
+}
+@media screen and (max-width:768px){
+    .lotion-Water{
+        width: 26.4vw;
+        height: auto;
+        top: 322vw;
+        right: 66vw;
+        transform: rotate(-7.01deg);
+    }
 }
 
 /*○○の特徴*/
@@ -458,6 +513,15 @@ li{
     top: 398vw;
     left: 20vw;
 }
+@media screen and (max-width:768px){
+    .apply-img-1{
+        width: 27.181vw;
+        height: auto;
+        top: 632vw;
+        right: 66vw;
+    }
+}
+
 .apply-img-2{
     position: absolute;
     width: 10.972vw;
@@ -515,35 +579,19 @@ li{
     height: 14.932vw;
     display: flex;
 }
-.happy-voice img{
+.happy-voice-img{
     width: 100%;
     height: auto;
+    z-index: 10;
+    position: relative;
 }
-.happy-voice-p{
-    font-family: Noto Serif JP;
-    font-size: 2.77vw;
-    font-weight: 600;
-    color: #FFFF;
-    -webkit-text-stroke: 3px #C69F3B;
-    margin: 3.5416vw 0 0 26.458vw;
+
+.happy-voice-img2{
+    width: 47.083vw;
+    height: auto;
+    z-index: 20;
     position: absolute;
-}
-.happy-voice-p2{
-    font-family: Noto Serif JP;
-    font-size: 4.44vw;
-    color: #FFFF;
-    -webkit-text-stroke: 3px #C69F3B;
-    position: absolute;
-    margin: 2.847vw 0 3.613vw 1.5vw;
-    transform: rotate(-15deg);
-}
-.happy-voice-p3{
-    font-family: Noto Serif JP;
-    font-size: 2.77vw;
-    color: #FFFF;
-    -webkit-text-stroke: 3px #C69F3B;
-    position: absolute;
-    margin: 7.0138vw 26.458vw 3.9597vw 0;
+    margin: 2.8472vw 26.458vw 3.613vw 26.458vw;
 }
 
 /*レビュー*/
