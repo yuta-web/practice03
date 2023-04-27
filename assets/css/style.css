@@ -107,6 +107,13 @@ li{
     position: relative;
     margin: 0;
 }
+@media screen and (max-width: 768px) {
+    .slogan-p{
+        font-size: 6.4vw;
+        writing-mode: vertical-rl;
+    }
+}
+
 .kv img{
     position: absolute;
     width: 8.095vw;
@@ -114,13 +121,26 @@ li{
     top: 22vw;
     left: 50vw;
 }
+@media screen and (max-width: 768px) {
+    .kv img{
+        width: 21.36vw;
+        top: 117vw;
+        left: 4vw;
+    }
+}
 .slogan-p-n{
     font-size: 3.88vw;
     font-family: Noto Serif JP;
     padding: 5.694vw 0 0 59.853vw;
     margin: 0;
 }
-
+@media screen and (max-width: 768px) {
+    .slogan-p-n{
+        font-size: 8.533vw;
+        padding: 56.694vw 0 0 35.853vw;
+        margin: 0;
+    }
+}
 
 .slogan-p-v{
     display: inline-block;
@@ -131,6 +151,14 @@ li{
     font-family: Noto Serif JP;
     margin: 0 0 11.38vw 62.5vw;
 }
+@media screen and (max-width: 768px) {
+    .slogan-p-v{
+        font-size: 10.66vw;
+        padding: 0 0 0 35.853vw;
+        margin: 0;
+    }
+}
+
 .value{
     font-size: 4vw;
 }
@@ -171,17 +199,55 @@ li{
     background-image:url(../img/lattice-background.png);
     background-size: 100vw 74.93vw;
 }
+@media screen and (max-width:768px){
+    .lattice{
+        background-size: auto 368.466vw;
+        height: 551.466vw;
+        background-position: -237px -83px;
+    }
+}
 
 .trouble-img{
     width: 45vw;
     height: auto;
     margin: 7.22vw 27.361vw 0 27.638vw;
 }
+@media screen and (min-width: 768px) {
+    .trouble-sp1,.trouble-sp2 {
+     display: none;
+   }
+}
+@media screen and (max-width:768px){
+    .trouble-img{
+        display: none;
+    }
+}
+@media screen and (max-width:768px){
+    .trouble-sp1{
+        width: 57.6vw;
+        height: auto;
+        margin: 30vw 23vw 0 3vw;
+    }
+}
+@media screen and (max-width:768px){
+    .trouble-sp2{
+        width: 51.2vw;
+        height: auto;
+        margin: 0 3vw -3.2vw 47vw;
+    }
+}
 
 .question-img-block01,
 .question-img-block02{
     display: flex;
 }
+@media screen and (max-width:768px){
+    .question-img-block01,
+    .question-img-block02{
+        display: block;
+    }
+}
+
 .question01-p,
 .question02-p,
 .question03-p,
@@ -190,6 +256,16 @@ li{
     font-family: Noto Serif JP;
     font-size: 1.11vw;
 }
+@media screen and (max-width:768px){
+    .question01-p,
+    .question02-p,
+    .question03-p,
+    .question04-p,
+    .question05-p{
+        font-size: 4.266vw;
+    }
+}
+
 .question01{
     width: 20.833vw;
     height: 16.458vw;
@@ -200,6 +276,12 @@ li{
     position: absolute;
     top: 73.5vw;
     left: 21vw;
+}
+@media screen and (max-width:768px){
+    .question01-p{
+        top: 307.5vw;
+        left: 28vw;
+    }
 }
 
 .question02{
@@ -243,7 +325,48 @@ li{
     top: 109.5vw;
     left: 75vw;
 }
-
+@media screen and (max-width: 768px) {
+    .question02,.question03,
+    .question04,.question05{
+     display: none;
+   }
+   .question01{
+     width: 73.066vw;
+     height: auto;
+     margin: 37.066vw 0 0 17.152vw;
+   }
+}
+@media screen and (min-width: 768px) {
+    .question01-sp{
+     display: none;
+   }
+  }
+@media screen and (max-width:768px){
+    .question01-p{
+        top: 313.5vw;
+        left: 28vw;
+    }
+    .question02-p{
+        top: 410vw;
+        left: 28vw;
+        z-index: 10;
+    }
+    .question03-p{
+        top: 507vw;
+        left: 28vw;
+        z-index: 10;
+    }
+    .question04-p{
+        top: 604vw;
+        left: 28vw;
+        z-index: 10;
+    }
+    .question05-p{
+        top: 701vw;
+        left: 28vw;
+        z-index: 10;
+    }
+}
 /*○○が選ばれる理由*/
 .wave{
     width: 100%;
@@ -253,8 +376,8 @@ li{
 }
 @media screen and (max-width:768px){
     .wave{
-        background-size: auto 175.46vw;
-        height: 175.46vw;
+        background-size: auto 188.46vw;
+        height: 188.46vw;
         background-position: -220px 0;
     }
 }
@@ -288,7 +411,7 @@ li{
 @media screen and (max-width:768px){
     .text-block{
         width: 34.874vw;
-        margin: 0vw 2.66vw 13.33vw 54.66vw;
+        margin: 0vw 2.66vw 13.33vw 55.66vw;
         padding: 0;
     }
 }
@@ -339,7 +462,7 @@ li{
         width: 27.181vw;
         height: auto;
         top: 2vw;
-        right: 20vw;
+        right: 22vw;
     }
 }
 
@@ -356,7 +479,7 @@ li{
     .lotion-Water{
         width: 26.4vw;
         height: auto;
-        top: 322vw;
+        top: 800vw;
         right: 66vw;
         transform: rotate(-7.01deg);
     }
@@ -369,11 +492,22 @@ li{
     background-image:url(../img/white-background.png);
     background-size: 100vw 170.833vw;
 }
-
+@media screen and (max-width:768px){
+    .white{
+        background-size: auto 380.8vw;
+        height:380.8vw;
+    }
+}
 .feature{
     width: 16.11vw;
     height: auto;
     padding: 7.22vw 40vw 0 40vw;
+}
+@media screen and (max-width:768px){
+    .feature{
+        width: 40.533vw;
+        padding: 17.066vw 29.733vw 0 29.733vw;
+    }
 }
 
 .white-block{
@@ -382,6 +516,13 @@ li{
     margin: 6.805vw 10.6805vw 7.22vw 10.236vw;
     background-color: #FFF;
     overflow: hidden;
+}
+@media screen and (max-width:768px){
+    .white-block{
+        width:90.933vw;
+        height: 462.933vw;
+        margin: 16.8vw 4.533vw 14.933vw 4.533vw;
+    }
 }
 
 .choice-text-block{
@@ -392,10 +533,26 @@ li{
     margin-top: 15.4861vw;
     margin-left: 8.125vw;
 }
+@media screen and (max-width:768px){
+    .choice-text-block{
+        width:91.466vw;
+        height: 90.66vw;
+        margin: 34.933vw 0 0 0;
+        z-index: 10;
+    }
+}
+
 .choice-text-b{
     font-size: 2.22vw;
     font-family: Roboto;
     padding: 4.583vw 4.166vw 0 4.3055vw;
+}
+@media screen and (max-width:768px){
+    .choice-text-b{
+        font-size: 4.33vw;
+        width: 39.781vw;
+        padding: 14.933vw 0 0 5.066vw;
+    }
 }
 
 .choice-text-s{
@@ -403,12 +560,28 @@ li{
     font-family:Roboto;
     padding: 3.1944vw 5.1388vw 3.4027vw 4.3055vw;
 }
+@media screen and (max-width:768px){
+    .choice-text-s{
+        font-size: 3.733vw;
+        width: 81.066vw;
+        padding: 10.66vw 4.266vw 14.133vw 6.133vw;
+    }
+}
+
 .choice-block img{
     z-index: 10;
     background-image: url(../img/lotion-Water-2.png);
     width: 29.5138vw;
     height:auto;
     margin: 6.3194vw 5.833vw 3.055vw -5vw;
+}
+@media screen and (max-width:768px){
+    .choice-block img{
+        width:42.933vw;
+        height: 54.66vw;
+        margin: 13.66vw 0 0 -42vw;
+        z-index: 20;
+    }
 }
 
 .choice-block{
@@ -418,10 +591,27 @@ li{
     flex-direction: row-reverse;
     margin: 5vw 5.833vw 0 0;
 }
+@media screen and (max-width:768px){
+    .choice-block:nth-of-type(2n){
+        width:91.466vw;
+        height: 90.66vw;
+        margin: 34.933vw 0 0 0;
+        z-index: 10;
+    }
+}
+@media screen and (max-width:768px){
+    .choice-text-b:nth-of-type(2n){
+        padding: 14.933vw 5.066vw 0 0;
+    }
+}
 .choice-block:nth-of-type(2n) img{
     margin: 5vw -12vw 3.055vw 0;
 }
-
+@media screen and (max-width:768px){
+    .choice-block:nth-of-type(2n) img{
+        margin: 5vw 0 3.055vw -5vw;
+    }
+}
 /*申し込む*/
 .apply{
     width: 100%;
@@ -505,7 +695,12 @@ li{
     top: 426.5vw;
     left: 64.5vw;
 }
-
+@media screen and (max-width:768px){
+    .slogan-p-v2-2{
+        top: 1405vw;
+        right: 66vw;
+    }
+}
 .apply-img-1{
     position: absolute;
     width: 10.9541vw;
@@ -517,7 +712,7 @@ li{
     .apply-img-1{
         width: 27.181vw;
         height: auto;
-        top: 632vw;
+        top: 1380vw;
         right: 66vw;
     }
 }
@@ -528,6 +723,14 @@ li{
     height: auto;
     top: 432vw;
     left: 20vw;
+}
+@media screen and (max-width:768px){
+    .apply-img-2{
+        width: 27.181vw;
+        height: auto;
+        top: 1400vw;
+        right: 66vw;
+    }
 }
 
 .apply-allow{
@@ -629,6 +832,7 @@ li{
     top: 506vw;
     left: 16vw;
 }
+
 .initial-p{
     font-family: Noto Serif JP;
     font-size: 1.66vw;
@@ -637,6 +841,16 @@ li{
     top: 506.5vw;
     left: 18.5vw;
 }
+@media screen and (max-width:768px){
+    .initial-img{
+        top: 1400vw;
+        right: 16vw;
+    }
+    .initial-p{
+        top: 1400.5vw;
+        right: 18.5vw;
+    }
+}
 .initial-img2{
     width: 19.2708vw;
     height: auto;
@@ -644,6 +858,7 @@ li{
     top: 577vw;
     left: 16vw;
 }
+
 .initial-p2{
     font-family: Noto Serif JP;
     font-size: 1.66vw;
@@ -652,6 +867,17 @@ li{
     top: 577.5vw;
     left: 18.5vw;
 }
+@media screen and (max-width:768px){
+    .initial-img2{
+        top: 1500vw;
+        right: 16vw;
+    }
+    .initial-p2{
+        top: 1500.5vw;
+        right: 16vw;
+    }
+}
+
 .text-b{
     font-family: 'Noto Serif JP';
     font-size: 2.22vw;
