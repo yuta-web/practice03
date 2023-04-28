@@ -111,6 +111,7 @@ li{
     .slogan-p{
         font-size: 6.4vw;
         writing-mode: vertical-rl;
+        padding:37.4305vw 0 0 75.097vw;
     }
 }
 
@@ -124,7 +125,7 @@ li{
 @media screen and (max-width: 768px) {
     .kv img{
         width: 21.36vw;
-        top: 117vw;
+        top: 111vw;
         left: 4vw;
     }
 }
@@ -137,8 +138,11 @@ li{
 @media screen and (max-width: 768px) {
     .slogan-p-n{
         font-size: 8.533vw;
-        padding: 56.694vw 0 0 35.853vw;
-        margin: 0;
+        padding: 0;
+        margin: 21vw 0 0 34vw;
+        width: 66.133vw;
+        height: 10.933vw;
+        background: rgba(255, 255, 255, 0.8);
     }
 }
 
@@ -152,10 +156,31 @@ li{
     margin: 0 0 11.38vw 62.5vw;
 }
 @media screen and (max-width: 768px) {
+    .slogan-p-v::before{
+        display: block;
+        content: "";
+        width: 66.133vw;
+        height: 13.866vw;
+        background: rgba(255, 255, 255, 0.8);
+        padding: 0;
+
+        position:absolute;
+        top: 3px;
+        left: -3px;
+        z-index: 5;
+    }
+    
     .slogan-p-v{
         font-size: 10.66vw;
-        padding: 0 0 0 35.853vw;
+        width: 33.6vw;
+        height: 13.866vw;
+        padding: 0;
         margin: 0;
+
+        position: relative;
+        top: 00px;
+        left: 130px;
+        z-index: 10;
     }
 }
 
@@ -169,6 +194,16 @@ li{
     font-family: Noto Serif JP;
     top: 31.5vw;
     left: 78vw;
+}
+@media screen and (max-width: 768px) {
+    .slogan-p-v2{
+        font-size: 4.266vw;
+        padding: 0;
+        top: 169.5vw;
+        left: 67vw;
+        width:17.066vw;
+        height:auto;
+    }
 }
 
 .cta{
@@ -190,6 +225,18 @@ li{
 
 .cta p{
     padding: 1.5277vw 2.1527vw;
+}
+@media screen and (max-width: 768px) {
+    .cta{
+        font-size: 6.4vw;
+        padding: 0;
+        top: 147.5vw;
+        left: 40vw;
+        width:16vw;
+        height:82.66vw;
+        transform: rotate(-90deg);
+
+    }
 }
 
 /*お悩みセクション*/
@@ -494,8 +541,8 @@ li{
 }
 @media screen and (max-width:768px){
     .white{
-        background-size: auto 380.8vw;
-        height:380.8vw;
+        background-size: auto 500vw;
+        height:500vw;
     }
 }
 .feature{
@@ -506,7 +553,7 @@ li{
 @media screen and (max-width:768px){
     .feature{
         width: 40.533vw;
-        padding: 17.066vw 29.733vw 0 29.733vw;
+        padding: 17.066vw 29.733vw -29.067vw  29.733vw;
     }
 }
 
@@ -520,7 +567,7 @@ li{
 @media screen and (max-width:768px){
     .white-block{
         width:90.933vw;
-        height: 462.933vw;
+        height: 445.933vw;
         margin: 16.8vw 4.533vw 14.933vw 4.533vw;
     }
 }
@@ -537,7 +584,7 @@ li{
     .choice-text-block{
         width:91.466vw;
         height: 90.66vw;
-        margin: 34.933vw 0 0 0;
+        margin: 64vw 0 0 0;
         z-index: 10;
     }
 }
@@ -579,7 +626,7 @@ li{
     .choice-block img{
         width:42.933vw;
         height: 54.66vw;
-        margin: 13.66vw 0 0 -42vw;
+        margin: 42.66vw 0 0 -42vw;
         z-index: 20;
     }
 }
@@ -595,13 +642,12 @@ li{
     .choice-block:nth-of-type(2n){
         width:91.466vw;
         height: 90.66vw;
-        margin: 34.933vw 0 0 0;
         z-index: 10;
     }
 }
 @media screen and (max-width:768px){
     .choice-text-b:nth-of-type(2n){
-        padding: 14.933vw 5.066vw 0 0;
+        padding: 14.933vw 0 0 46.066vw;
     }
 }
 .choice-block:nth-of-type(2n) img{
@@ -609,7 +655,7 @@ li{
 }
 @media screen and (max-width:768px){
     .choice-block:nth-of-type(2n) img{
-        margin: 5vw 0 3.055vw -5vw;
+        margin: 42.66vw -42vw 0 0;
     }
 }
 /*申し込む*/
