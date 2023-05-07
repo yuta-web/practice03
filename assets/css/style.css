@@ -691,7 +691,9 @@ li{
 }
 @media screen and (max-width:768px){
     .white-block-apply-out{
+        width: 91.46vw;
         height:149.06vw;
+        margin: 14.933vw 4.266vw;
     }
 }
 
