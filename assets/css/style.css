@@ -103,7 +103,7 @@ li{
 
 @media screen and (max-width:768px){
     .slogan{
-        z-index: 0;
+        z-index:0;
     }
 }
 
@@ -236,12 +236,16 @@ li{
     .cta{
         font-size: 6.4vw;
         padding: 0;
-        top: 147.5vw;
-        left: 40vw;
-        width:16vw;
-        height:82.66vw;
-        transform: rotate(-90deg);
-
+        top: 181.5vw;
+        left: 8vw;
+        width: 82.66vw;
+        height: 16vw;
+        transform: none;
+        writing-mode: horizontal-tb;
+    }
+    .cta p{
+        width: 57.6vw;
+        padding: 3.466vw 12.533vw;
     }
 }
 
@@ -559,7 +563,7 @@ li{
 @media screen and (max-width:768px){
     .feature{
         width: 40.533vw;
-        padding: 17.066vw 29.733vw -29.067vw  29.733vw;
+        padding: 17.066vw 29.733vw 29.067vw  29.733vw;
     }
 }
 
@@ -717,6 +721,9 @@ li{
         font-size: 4.266vw;
         margin: 21.866vw 4.128vw 0 33.728vw;
     }
+    .apply-text-sp{
+        display: none
+    }
 }
 
 .apply-text-2{
@@ -771,7 +778,7 @@ li{
     -webkit-text-fill-color: transparent;
     font-size: 6.041vw;
     font-family: Noto Serif JP;
-    margin: 2.4166vw 21.944vw 0 41.11vw;
+    margin: 2.4166vw 20.944vw 0 41.11vw;
 }
 @media screen and (max-width:768px){
     .slogan-p-v-2{
@@ -829,18 +836,17 @@ li{
     width: 2.9875vw;
     background: linear-gradient(89.67deg, #FFD43E 4.4%, #FFD43E 94.37%);
     position:absolute;
-    margin-top: 20px;
-    margin: 5vw 0 0 30.277vw;
+    margin: 4vw 0 0 30.277vw;
 }
 .apply-allow::after {
-    content:  '';
-    width: 0;
-    height: 0;
+        content: '';
+    width: 0vw;
+    height: 0vw;
     border-style: solid;
-    border-width: 30px 0 30px 40px;
+    border-width: 69px 0 69px 74.71px;
     border-color: transparent transparent transparent #FFD43E;
-    position:  absolute;
-    top: -25%;
+    position: absolute;
+    top: -46%;
     left: 100%;
 }
 
