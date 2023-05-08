@@ -103,6 +103,7 @@ li{
 
 @media screen and (max-width:768px){
     .slogan{
+        position: relative;
         z-index:0;
     }
 }
@@ -132,8 +133,8 @@ li{
 @media screen and (max-width: 768px) {
     .kv img{
         width: 21.36vw;
-        top: 111vw;
-        left: 4vw;
+        top: 94vw;
+        left: 9vw;
     }
 }
 .slogan-p-n{
@@ -145,7 +146,8 @@ li{
 @media screen and (max-width: 768px) {
     .slogan-p-n{
         font-size: 8.533vw;
-        padding: 0;
+        padding-left:2.133vw;
+        padding-top: 0;
         margin: 21vw 0 0 34vw;
         width: 66.133vw;
         height: 10.933vw;
@@ -181,11 +183,11 @@ li{
         font-size: 10.66vw;
         width: 33.6vw;
         height: 13.866vw;
-        padding: 0;
+        padding-left:2.133vw;
         margin: 0;
 
         position: relative;
-        top: 00px;
+        top: 0px;
         left: 130px;
     }
 }
@@ -205,10 +207,11 @@ li{
     .slogan-p-v2{
         font-size: 4.266vw;
         padding: 0;
-        top: 169.5vw;
+        top: 153.5vw;
         left: 67vw;
         width:17.066vw;
         height:auto;
+        z-index: 0;
     }
 }
 
@@ -563,7 +566,7 @@ li{
 @media screen and (max-width:768px){
     .feature{
         width: 40.533vw;
-        padding: 17.066vw 29.733vw 29.067vw  29.733vw;
+        padding: 17.066vw 29.733vw 0vw  29.733vw;
     }
 }
 
@@ -582,6 +585,12 @@ li{
     }
 }
 
+@media screen and (max-width:768px){
+    .choice-block{
+        margin-top: 34.933vw;
+    }
+}
+
 .choice-text-block{
     z-index: 20;
     width: 35.9027vw;
@@ -594,8 +603,9 @@ li{
     .choice-text-block{
         width:91.466vw;
         height: 90.66vw;
-        margin: 64vw 0 0 0;
+        margin-top: 0;
         z-index: 10;
+        margin-left: 0;
     }
 }
 
@@ -612,9 +622,11 @@ li{
     }
 }
 @media screen and (max-width:768px){
-    .choice-block:nth-of-type(2n).choice-text-b{
+    .choice-block:nth-of-type(2n) .choice-text-b{
         margin:0 0 0 auto;
+        padding: 14.933vw 5.066vw 0 0;
     }
+    
 }
 
 .choice-text-s{
@@ -641,8 +653,7 @@ li{
     .choice-block img{
         width:42.933vw;
         height: 54.66vw;
-        margin: 42.66vw 0 0 -42vw;
-        z-index: 20;
+        margin: -20vw 0 0 -42vw;
     }
 }
 
@@ -657,7 +668,8 @@ li{
     .choice-block:nth-of-type(2n){
         width:91.466vw;
         height: 90.66vw;
-        z-index: 10;
+        margin-top: 64vw;
+        margin-bottom: 64vw;
     }
 }
 
@@ -666,7 +678,7 @@ li{
 }
 @media screen and (max-width:768px){
     .choice-block:nth-of-type(2n) img{
-        margin: 42.66vw -42vw 0 0;
+        margin: -22.34vw -42vw 0 0;
     }
 }
 /*申し込む*/
@@ -880,6 +892,8 @@ li{
     width: 100%;
     height: 14.932vw;
     display: flex;
+    position: relative;
+    z-index: 0;
 }
 .happy-voice-img{
     width: 100%;
@@ -904,6 +918,12 @@ li{
     background-size: 100vw 100%;
     overflow: hidden;
     background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    top: -3vw;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
 }
 
 .white-block-review{
@@ -928,8 +948,9 @@ li{
     width: 19.2708vw;
     height: auto;
     position: absolute;
-    top: 506vw;
+    top: 36vw;
     left: 16vw;
+    z-index: 30;
 }
 
 .initial-p{
@@ -937,8 +958,9 @@ li{
     font-size: 1.66vw;
     color: #FFFF;
     position: absolute;
-    top: 506.5vw;
+    top: 36.8vw;
     left: 18.5vw;
+    z-index: 40;
 }
 @media screen and (max-width:768px){
     .initial-img{
@@ -954,8 +976,9 @@ li{
     width: 19.2708vw;
     height: auto;
     position: absolute;
-    top: 577vw;
+    top: 107vw;
     left: 16vw;
+    z-index: 30;
 }
 
 .initial-p2{
@@ -963,8 +986,9 @@ li{
     font-size: 1.66vw;
     color: #FFFF;
     position: absolute;
-    top: 577.5vw;
+    top: 107.8vw;
     left: 18.5vw;
+    z-index: 40;
 }
 @media screen and (max-width:768px){
     .initial-img2{
