@@ -554,8 +554,8 @@ li{
 }
 @media screen and (max-width:768px){
     .white{
-        background-size: auto 500vw;
-        height:500vw;
+        background-size: auto 510vw;
+        height:510vw;
     }
 }
 .feature{
@@ -580,7 +580,7 @@ li{
 @media screen and (max-width:768px){
     .white-block{
         width:90.933vw;
-        height: 445.933vw;
+        height: 452vw;
         margin: 16.8vw 4.533vw 14.933vw 4.533vw;
     }
 }
@@ -705,7 +705,7 @@ li{
     .white-block-apply-out{
         width: 91.46vw;
         height:149.06vw;
-        margin: 14.933vw 4.266vw;
+        margin: 14.933vw 4.266vw 14.933vw 4.266vw;
     }
 }
 
@@ -824,8 +824,8 @@ li{
     .apply-img-1{
         width: 27.181vw;
         height: auto;
-        top: 1380vw;
-        right: 66vw;
+        top: 1470vw;
+        left: 66vw;
     }
 }
 
@@ -834,7 +834,7 @@ li{
     width: 10.972vw;
     height: auto;
     top: 432vw;
-    left: 20vw;
+    left: 10vw;
 }
 @media screen and (max-width:768px){
     .apply-img-2{
