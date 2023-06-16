@@ -599,6 +599,7 @@ li{
     margin-top: 15.4861vw;
     margin-left: 8.125vw;
 }
+
 @media screen and (max-width:768px){
     .choice-text-block{
         width:91.466vw;
@@ -662,7 +663,7 @@ li{
 }
 .choice-block:nth-of-type(2n){
     flex-direction: row-reverse;
-    margin: 5vw 5.833vw 0 0;
+    margin: 5vw 5.833vw 5vw 0;
 }
 @media screen and (max-width:768px){
     .choice-block:nth-of-type(2n){
@@ -886,7 +887,7 @@ li{
     width: 0vw;
     height: 0vw;
     border-style: solid;
-    border-width: 69px 0 69px 74.71px;
+    border-width: 50px 0 50px 55px;
     border-color: transparent transparent transparent #FFD43E;
     position: absolute;
     top: -46%;
@@ -897,12 +898,22 @@ li{
     .apply-allow{
         height: 7.419vw;
         width: 7.9875vw;
+        background: linear-gradient(89.67deg, #FFD43E 4.4%, #FFD43E 94.37%);
+        position: absolute;
         margin: 26vw 0 0 2.277vw;
+        z-index: 30;
     }
     .apply-allow::after{
+        content: '';
+        width: 0vw;
+        height: 0vw;
+        border-style: solid;
         border-width: 24px 0 24px 27.71px;
+        border-color: transparent transparent transparent #FFD43E;
+        position: absolute;
         top: -39%;
         left: 67%;
+        z-index: 30;
     }
 }
 .entry{
@@ -1060,19 +1071,19 @@ li{
     .initial-img{
         top: 50vw;
         left: 20vw;
-        width: 33.6vw;
-        height: 5.066vw;
+        width: 42.6vw;
+        height: 7.066vw;
     }
     .initial-p{
         display: none;
     }
     .initial-p3{
         font-family: Noto Serif JP;
-        font-size: 1.994vw;
+        font-size: 0.994vw;
         color: #FFFF;
         position: absolute;
-        top: 50.5vw;
-        left: 18.5vw;
+        top: 51.0vw;
+        left: 24.5vw;
         z-index: 40;
         line-height: 11px;
     }
@@ -1104,19 +1115,19 @@ li{
     .initial-img2{
         top: 240vw;
         left: 20vw;
-        width: 33.6vw;
-        height: 5.066vw;
+        width: 42.6vw;
+        height: 7.066vw;
     }
     .initial-p2{
         display: none;
     }
     .initial-p4{
         font-family: Noto Serif JP;
-        font-size: 1.994vw;
+        font-size: 0.994vw;
         color: #FFFF;
         position: absolute;
-        top: 240.5vw;
-        left: 16vw;
+        top: 241vw;
+        left: 24.5vw;
         z-index: 40;
         line-height: 11px;
     }
@@ -1260,7 +1271,7 @@ input[type="checkbox"]{
     border: 5px solid #4079AD;
     border-radius: 4px;
     background: #E8E8E8;
-    margin-right: 1vw;
+    margin-right: 2.5vw;
 }
 @media screen and (max-width:768px){
     input[type="checkbox"]{
@@ -1312,7 +1323,7 @@ footer{
     font-size: 1.11vw;
     color: #FFFF;
     list-style: none;
-    justify-content: space-between;
+    justify-content: right;
     margin: 7.22vw 30.208vw 0 44.847vw;
 }
 @media screen and (max-width:768px){
